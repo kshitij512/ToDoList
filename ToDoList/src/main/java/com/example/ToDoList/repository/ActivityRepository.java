@@ -10,3 +10,4 @@ import java.util.List;
 public interface ActivityRepository extends JpaRepository<Activity, Long> {
     // Custom method to find activities by day number
     List<Activity> findByDayNumber(int dayNumber);
+}
